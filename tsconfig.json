@@ -24,7 +24,8 @@
       "@/*": [
         "./src/*"
       ]
-    }
+    },
+    "allowImportingTsExtensions": true // <--- ADICIONE ESTA LINHA AQUI
   },
   "include": [
     "src",
@@ -35,7 +36,3 @@
     "node_modules"
   ]
 }
-
-
-
-
